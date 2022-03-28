@@ -1,7 +1,7 @@
-// ×ªÒå×Ö·û
+// è½¬ä¹‰å­—ç¬¦
 // \n  \\  \t
 
-// ×Ö·û´®ĞÍ  Ë«ÒıºÅÀï¡£ c++ÖĞ¶¨Òå¸ñÊ½  string ±äÁ¿Ãû=¡°×Ö·û´® ¡± 
+// å­—ç¬¦ä¸²å‹  åŒå¼•å·é‡Œã€‚ c++ä¸­å®šä¹‰æ ¼å¼  string å˜é‡å=â€œå­—ç¬¦ä¸² â€ 
 
 # include<iostream>
 # include<string>
@@ -10,14 +10,14 @@ using namespace std;
 
 int main(){
 	
-	// c·ç¸ñ×Ö·û´®
+	// cé£æ ¼å­—ç¬¦ä¸²
 	char chuan[] = "hello world";
 	
-	// c++·ç¸ñ×Ö·û´®
-	// °üº¬Ò»¸öÍ·ÎÄ¼ş #include<string> 
+	// c++é£æ ¼å­—ç¬¦ä¸²
+	// åŒ…å«ä¸€ä¸ªå¤´æ–‡ä»¶ #include<string> 
 	string chuanchuan = "hello world!!!!"; 
 	
-	cout << chuan << endl;  // ÕâÀïÊÇchuan ÊÇĞ´Êı×éÃû¡£¶ø²»ÊÇchuan[] 
+	cout << chuan << endl;  // è¿™é‡Œæ˜¯chuan æ˜¯å†™æ•°ç»„åã€‚è€Œä¸æ˜¯chuan[] 
 	cout << chuanchuan << endl;
 	
 	
